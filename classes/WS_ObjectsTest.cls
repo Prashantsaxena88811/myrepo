@@ -1,7 +1,7 @@
 @isTest
 private class WS_ObjectsTest {
     
-    private static testMethod void test() {
+    private static testMethod void test111() {
         
         WS_Objects.ServicePriceRequest servPriceReq = new WS_Objects.ServicePriceRequest();
         servPriceReq.SoldToAccount = 'SoldToAccount';
