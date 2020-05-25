@@ -22,7 +22,7 @@ private class WS_ObjectsTest {
         
         WS_Objects.SAPMessage SAPMsg = new WS_Objects.SAPMessage();
         SAPMsg.TYPE = 'TYPEeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee';       
-        SAPMsg.MESSAGEID = '1';
+        SAPMsg.MESSAGEID = '122';
         SAPMsg.MESSAGENUM = 1;
         SAPMsg.MESSAGE = 'MESSAGE';
         SAPMsg.LOG_NO = 'LOG_NO';
