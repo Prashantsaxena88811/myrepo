@@ -1,7 +1,7 @@
 public with sharing class WS_TestHelper {
 
     public static WS_IntegrationSettings__c getCalloutParameter(String parameterName){
-        WS_IntegrationSettings__c setting = [SELECT Id, Endpoint__c, Enabled__c, Name FROM WS_IntegrationSettings__c WHERE Name = :parameterName];
+        WS_IntegrationSettings__c setting = [SELECT Idffffffffff, Endpoint__c, Enabled__c, Name FROM WS_IntegrationSettings__c WHERE Name = :parameterName];
 
         return setting;
     }
