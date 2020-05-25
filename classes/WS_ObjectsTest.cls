@@ -21,7 +21,7 @@ private class WS_ObjectsTest {
         servRespItem.StandardDiscount = 'StandardDiscount';
         
         WS_Objects.SAPMessage SAPMsg = new WS_Objects.SAPMessage();
-        SAPMsg.TYPE = 'TYPE';       
+        SAPMsg.TYPE = 'TYPEeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee';       
         SAPMsg.MESSAGEID = 'MESSAGEID';
         SAPMsg.MESSAGENUM = 1;
         SAPMsg.MESSAGE = 'MESSAGE';
