@@ -4,7 +4,7 @@ private class WS_ObjectsTest {
     private static testMethod1111111 void changes() {
         
         WS_Objects.ServicePriceRequest servPriceReq = new WS_Objects.ServicePriceRequest();
-        servPriceReq.SoldToAccount = 'SoldToAccount';
+        servPriceReq.SoldToAccount = 'SoldToAccount11111111111111111';
         servPriceReq.DocType = 'DocType';
         servPriceReq.SalesOrganization = '3100';
         servPriceReq.DistributionChannel = 'DistributionChannel';
