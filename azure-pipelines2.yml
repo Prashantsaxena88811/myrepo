@@ -5,8 +5,6 @@ trigger:
       - master
       - devsandbox
       - devSandbox1
-      
-      ye changes abhi kiye h
 jobs:
 - job: ProdDeploy
   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
